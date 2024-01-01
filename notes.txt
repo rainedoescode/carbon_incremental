@@ -1,0 +1,39 @@
+Incremental Game Jam - New Years 2024 - Theme: Pressure
+
+Diamonds require about 725,000 pounds per square inch of pressure applied to carbon
+
+SI unit for pressure is Pascal
+1 Pa = 1 N/m^2 = 1 kg/m*s^2 = 1 J/m^3
+N = Newton, m = meter, kg = kilogram, s = second, J = joule
+
+Average key requires 45-60 grams of force
+P = F/A
+Pressure, Force, Area
+
+For my own sanity, I'm generalizing the Area of force for a keypress to 1 cm^2
+
+Grams to Newtons in Earth Gravity
+1 g = 0.01 N
+
+Generalize actuation force to 50g
+50g = .5 Newtons
+0.5N / 1cm^2
+1 m^2 = 1000 cm^2
+0.5N * 1000 / 1 m^2
+500 Pa / Keystroke
+
+Diamond Pressure: 725,000 lbs / 1 in^2
+1 in^2 = 0.00064516 m^2
+1 lb = 453.592 g
+725000 lbs -> g
+328854200 g -> N
+3288542 N / 0.00064516 m^2
+
+5,097,250,294.5 Pa to make Diamond
+
+--------------
+| References |
+--------------
+https://www.forbes.com/sites/startswithabang/2019/06/18/there-are-6-strongest-materials-on-earth-that-are-harder-than-diamonds/?sh=99f265f34123
+https://en.wikipedia.org/wiki/Diamond
+https://www.resna.org/sites/default/files/legacy/conference/proceedings/2004/Papers/StudentDesign/OUT/KeyboardForce.html#:~:text=Another%20study%20at%20the%20University,47.6%20grams)%20(4).
