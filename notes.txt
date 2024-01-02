@@ -30,10 +30,29 @@ Diamond Pressure: 725,000 lbs / 1 in^2
 3288542 N / 0.00064516 m^2
 
 5,097,250,294.5 Pa to make Diamond
+Keypresses to 1 diamond: 10,194,500.589
+
+---
+Blood pressure unit - mmHg
+1 mmHg = ~133.322 Pa
+Hand pump bulb - ~10-11 squeezes to 140 mmHg
+~14 mmHg per squeeze -> Pa
+~1866.5 Pa
+---
 
 --------------
 | References |
 --------------
-https://www.forbes.com/sites/startswithabang/2019/06/18/there-are-6-strongest-materials-on-earth-that-are-harder-than-diamonds/?sh=99f265f34123
-https://en.wikipedia.org/wiki/Diamond
-https://www.resna.org/sites/default/files/legacy/conference/proceedings/2004/Papers/StudentDesign/OUT/KeyboardForce.html#:~:text=Another%20study%20at%20the%20University,47.6%20grams)%20(4).
+Materials harder than diamond: https://www.forbes.com/sites/startswithabang/2019/06/18/there-are-6-strongest-materials-on-earth-that-are-harder-than-diamonds/?sh=99f265f34123
+Diamond wiki: https://en.wikipedia.org/wiki/Diamond
+Keystroke pressure study: https://www.resna.org/sites/default/files/legacy/conference/proceedings/2004/Papers/StudentDesign/OUT/KeyboardForce.html#:~:text=Another%20study%20at%20the%20University,47.6%20grams)%20(4).
+Synthetic Diamonds wiki: https://en.wikipedia.org/wiki/Synthetic_diamond
+Synth. Diamond Production: https://www.gia.edu/hpht-and-cvd-diamond-growth-processes#:~:text=HPHT%20stands%20for%20high%20pressure,earth%20where%20natural%20diamonds%20form.
+Graphite wiki: https://en.wikipedia.org/wiki/Graphite
+
+Pressure Uses:
+    Glass Manufactoring: https://kellypneumatics.com/the-importance-of-pressure-temperature-and-flow-control-systems-in-glass-manufacturing/
+    Air compressor uses: https://www.wylerindustrial.com/air-compressors-industrial-sector/
+    Pressure Vessels: https://www.teknoflow.co/basics-of-pressure-vessels-types-applications-designing-and-manufacturing-of-pressure-vessels/
+    Compressed Air energy storage: https://en.wikipedia.org/wiki/Compressed-air_energy_storage
+    Pressure Bulb: https://theconstructor.org/geotechnical/pressure-bulb-stress-isobar-concept/6924/
