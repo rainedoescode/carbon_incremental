@@ -1,8 +1,12 @@
 
 let currentPressure = 0;
-let keypressPressure = 500; // Generalized value for 50g keypress, 500 Pascal
+const keypressPressure = 500; // Generalized value for 50g keypress, 500 Pascal
 let pressureBulbs = 0;
-let pressureBulbPressure = 1866.5;
+const pressureBulbPressure = 1866.5;
+
+let depressurizeRate = 400;
+
+const fps = 30;
 
 const theNumberElem = document.getElementById('theNumber');
 
@@ -15,3 +19,37 @@ const squeezeBulb = () => {
     currentPressure += pressureBulbPressure;
     theNumberElem.innerHTML = currentPressure;
 };
+
+let startTime;
+let deltaT;
+
+const updatePressure = (time) => {
+    if (startTime === undefined) {
+        startTime = time;
+    }
+    deltaT = (time - startTime) / 1000;
+    if (currentPressure > 0 ) {
+        // console.log(deltaT);
+        currentPressure -= depressurizeRate * deltaT;
+        currentPressure = currentPressure < 0 ? 0 : currentPressure;
+
+        theNumberElem.innerHTML = currentPressure.toLocaleString(
+            undefined,
+            {
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2,
+            }
+        );
+    }
+    startTime = time;
+};
+
+(() => {
+    function mainLoop(time) {
+        window.requestAnimationFrame(mainLoop);
+
+        updatePressure(time);
+    }
+
+    mainLoop();
+})();
