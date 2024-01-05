@@ -1,5 +1,7 @@
 Incremental Game Jam - New Years 2024 - Theme: Pressure
 
+Start Idea: Article about making money synthesizing diamonds? (scam)
+
 Diamonds require about 725,000 pounds per square inch of pressure applied to carbon
 
 SI unit for pressure is Pascal
@@ -40,6 +42,13 @@ Hand pump bulb - ~10-11 squeezes to 140 mmHg
 ~1866.5 Pa
 ---
 
+---------
+| Terms |
+---------
+
+CFM - cubic feet per minute, airflow
+mmHg - millimeters of mercury, pressure measure, typically used for blood pressure
+
 --------------
 | References |
 --------------
@@ -50,9 +59,15 @@ Synthetic Diamonds wiki: https://en.wikipedia.org/wiki/Synthetic_diamond
 Synth. Diamond Production: https://www.gia.edu/hpht-and-cvd-diamond-growth-processes#:~:text=HPHT%20stands%20for%20high%20pressure,earth%20where%20natural%20diamonds%20form.
 Graphite wiki: https://en.wikipedia.org/wiki/Graphite
 
-Pressure Uses:
+Pressure, Uses, etc:
     Glass Manufactoring: https://kellypneumatics.com/the-importance-of-pressure-temperature-and-flow-control-systems-in-glass-manufacturing/
     Air compressor uses: https://www.wylerindustrial.com/air-compressors-industrial-sector/
     Pressure Vessels: https://www.teknoflow.co/basics-of-pressure-vessels-types-applications-designing-and-manufacturing-of-pressure-vessels/
     Compressed Air energy storage: https://en.wikipedia.org/wiki/Compressed-air_energy_storage
     Pressure Bulb: https://theconstructor.org/geotechnical/pressure-bulb-stress-isobar-concept/6924/
+
+    Etc:
+    Uncontrolled Decompression(human-related): https://en.wikipedia.org/wiki/Uncontrolled_decompression#:~:text=Explosive%20decompression%20occurs%20typically%20in,as%20masks%2C%20is%200.2%20seconds.
+    Depressureization Calculation(air): https://www.vmacair.com/blog/how-to-calculate-vessel-depressurization-time-with-quick-simple-logic
+    More Research: Dispersion modeling - Related: Fluid dynamics
+        http://www.cheresources.com/content/articles/safety/flow-through-orifice-plates-in-compressible-fluid-service-at-high-pressure-drop

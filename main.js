@@ -1,7 +1,11 @@
 
+import { pressureClick } from "./phases/phase_one.js";
+
 let currentPressure = 0;
+let pressureClicks = 0;
 const keypressPressure = 500; // Generalized value for 50g keypress, 500 Pascal
 let pressureBulbs = 0;
+let bulbClicks = 0;
 const pressureBulbPressure = 1866.5;
 
 let depressurizeRate = 400;
@@ -11,9 +15,15 @@ const fps = 30;
 const theNumberElem = document.getElementById('theNumber');
 
 const pressureButton = () => {
+    pressureClick(true);
     currentPressure += keypressPressure;
     theNumberElem.innerHTML = currentPressure;
+    document.getElementById("pressureBtn").disabled = true;
 };
+
+document.getElementById("pressureBtn").addEventListener('click', () => {
+    pressureButton();
+});
 
 const squeezeBulb = () => {
     currentPressure += pressureBulbPressure;
@@ -40,6 +50,8 @@ const updatePressure = (time) => {
                 maximumFractionDigits: 2,
             }
         );
+    } else {
+        document.getElementById("pressureBtn").disabled = false;
     }
     startTime = time;
 };
